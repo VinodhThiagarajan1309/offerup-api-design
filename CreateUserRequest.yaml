@@ -1,0 +1,18 @@
+CreateUserRequest:
+  type: object
+  properties:
+    firstName:
+      type: string
+      format: name
+      example: John
+      description: First Name of the User
+    lastName:
+      type: string
+      format: name
+      example: Doe
+      description: Last Name of the User
+    phoneNumber:
+      type: integer
+      format: int64
+      example: 8009001000
+      description: 10 digit phone number ( only numbers )
